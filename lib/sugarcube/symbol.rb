@@ -100,17 +100,7 @@ class Symbol
     right: UIInterfaceOrientationLandscapeRight,
   }
 
-  @interface_masks = {
-    portrait: UIInterfaceOrientationMaskPortrait,
-    landscrape: UIInterfaceOrientationMaskLandscape,
-    left: UIInterfaceOrientationMaskLandscapeLeft,
-    right: UIInterfaceOrientationMaskLandscapeRight,
-    upside_down: UIInterfaceOrientationMaskPortraitUpsideDown,
-    all_but_upside_down: UIInterfaceOrientationMaskAllButUpsideDown,
-    iphone: UIInterfaceOrientationMaskAllButUpsideDown,
-    all: UIInterfaceOrientationMaskAll,
-    ipad: UIInterfaceOrientationMaskAll,
-  }
+  @interface_masks = {}
 
   @textalignments = {
     left: UITextAlignmentLeft,
